@@ -1,0 +1,38 @@
+.container {
+  margin-top: 20px;
+  color: #333;
+}
+.container :global(.title) {
+  color: #333;
+  line-height: 35px;
+  background-color: #ccc;
+  margin-bottom: 10px; 
+  text-align: center;
+}
+.container :global(.type) {
+  text-align: center;
+  font-size: 24px;
+}
+.container :global(input) {
+  display: inline-block;
+  vertical-align: -6px;
+  width: 50%;
+}
+.container :global(.tip) {
+  text-align: center;
+}
+.container :global(.input-item) {
+  text-align: center;
+}
+.container :global(label)  {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  margin-right: 5px;
+}
+.container :global(.result)  {
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+  margin-left: 5px;
+}

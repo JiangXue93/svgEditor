@@ -1,0 +1,12 @@
+.layout {
+  color: aqua;
+  display: flex;
+  min-height: 100vh;
+}
+.layout :global(.side) {
+  flex: 2;
+  background-color: #eee;
+}
+.layout :global(.content) {
+  flex: 5;
+}
